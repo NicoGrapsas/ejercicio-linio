@@ -1,0 +1,22 @@
+{
+    "name": "nicograpsas/linio",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linio\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
